@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image_four"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="30dp"
+    tools:context=".Activity.AddUpdateEmployee">
+
+    <EditText
+        android:id="@+id/edit_text_first_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_first_name"
+        android:padding="@dimen/view_padding"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="@dimen/add_edit_textsize" />
+
+    <EditText
+        android:id="@+id/edit_text_last_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_last_name"
+        android:padding="@dimen/view_padding"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+        android:textSize="@dimen/add_edit_textsize" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/view_padding">
+
+        <TextView
+            android:id="@+id/text_view_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="25dp"
+            android:text="@string/gender"
+            android:textColor="#fff"
+            android:textColorHint="#fff"
+            android:textSize="@dimen/add_edit_textsize" />
+
+        <RadioGroup
+            android:id="@+id/radio_gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingRight="25dp"
+            android:textColor="#fff">
+
+            <RadioButton
+                android:backgroundTint="#fff"
+                android:id="@+id/radio_male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/string_male"
+                android:textColor="#fff"
+                android:textSize="@dimen/add_edit_textsize" />
+
+            <RadioButton
+                android:id="@+id/radio_female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/string_female"
+                android:textColor="#fff"
+                android:textSize="@dimen/add_edit_textsize" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/view_padding">
+
+        <EditText
+            android:id="@+id/edit_text_hire_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:gravity="left"
+            android:hint="@string/add_date"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+        <ImageView
+            android:id="@+id/image_view_hire_date"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:src="@android:drawable/ic_menu_my_calendar" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edit_text_dept"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/add_dept"
+        android:textColor="#fff"
+        android:textColorHint="#fff" />
+
+    <Button
+        android:textColor="#000"
+        android:backgroundTint="#fff"
+        android:id="@+id/button_add_update_employee"
+        android:layout_width="@dimen/button_width"
+        android:layout_height="@dimen/button_height"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/button_padding"
+        android:text="@string/add_employee" />
+
+</LinearLayout>

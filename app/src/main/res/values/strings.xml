@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SQLitePractice</string>
+    <string name="date_picker_title">Hire Date</string>
+    <string name="new_employee">New Employee</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="hide_subtitle">Hide Subtitle</string>
+    <string name="subtitle_format">%1$s crimes</string>
+    <string name="choose_menu">Choose a Menu Option</string>
+    <string name="view_all_employees">View All Employees</string>
+    <string name="remove_employee">Remove Employee</string>
+    <string name="update_employee">Update Employee</string>
+    <string name="add_employee">Add Employee</string>
+    <string name="gender">Gender</string>
+    <string name="add_last_name">Last Name</string>
+    <string name="add_first_name">First Name</string>
+    <string name="string_male">Male</string>
+    <string name="string_female">Female</string>
+    <string name="add_date">Hire Date (DD/MM/YYYY)</string>
+    <string name="add_dept">Department</string>
+    <string name="enter_employee_id">Enter Your Employee Id</string>
+    <string name="settings">Settings</string>
+</resources>

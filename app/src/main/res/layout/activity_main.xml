@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/image_three"
+    tools:context=".Activity.MainActivity">
+
+    <TextView
+        android:textColor="#fff"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/txt_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_menu"
+        android:paddingTop="@dimen/header_margin"
+        android:paddingRight="@dimen/header_margin"
+        android:paddingLeft="@dimen/header_margin"
+        android:paddingBottom="@dimen/header_bottom_margin"
+        android:textSize="@dimen/text_size"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_marginTop="15dp"
+        android:textAllCaps="false"
+        android:id="@+id/btn_add_employee"
+        android:text="@string/add_employee"
+        android:textColor="#000"
+        android:backgroundTint="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/btn_update_employee"
+        android:backgroundTint="#fff"
+        android:textColor="#000"
+        android:text="@string/update_employee"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textAllCaps="false"
+        android:backgroundTint="#fff"
+        android:id="@+id/btn_delete_employee"
+        android:text="@string/remove_employee"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:textAllCaps="false"
+        android:backgroundTint="#fff"
+        android:textColor="#000"
+        android:id="@+id/btn_view_employees"
+        android:text="@string/view_all_employees"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
